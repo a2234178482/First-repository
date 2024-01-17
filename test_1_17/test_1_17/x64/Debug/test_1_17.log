@@ -1,0 +1,12 @@
+﻿  exam.c
+C:\code\test_1_17\test_1_17\exam.c(16,5): error C2084: 函数“int main()”已有主体
+  C:\code\test_1_17\test_1_17\exam.c(3,5):
+  参见“main”的前一个定义
+  
+C:\code\test_1_17\test_1_17\exam.c(25,9): error C2143: 语法错误: 缺少“)”(在“%”的前面)
+C:\code\test_1_17\test_1_17\exam.c(25,2): error C2198: “printf”: 用于调用的参数太少
+C:\code\test_1_17\test_1_17\exam.c(25,12): error C2065: “d”: 未声明的标识符
+C:\code\test_1_17\test_1_17\exam.c(25,19): error C2065: “d，”: 未声明的标识符
+C:\code\test_1_17\test_1_17\exam.c(25,19): error C2146: 语法错误: 缺少“;”(在标识符“zhengshushang”的前面)
+C:\code\test_1_17\test_1_17\exam.c(25,12): warning C4552: ”%“: 未使用表达式结果
+C:\code\test_1_17\test_1_17\exam.c(25,39): error C2059: 语法错误:“)”
