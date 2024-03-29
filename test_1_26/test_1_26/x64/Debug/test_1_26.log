@@ -1,0 +1,9 @@
+﻿  test.c
+C:\code\test_1_26\test_1_26\test.c(116,5): error C2084: 函数“int Add(int,int)”已有主体
+  C:\code\test_1_26\test_1_26\test.c(110,5):
+  参见“Add”的前一个定义
+  
+C:\code\test_1_26\test_1_26\test.c(121,5): error C2084: 函数“int main()”已有主体
+  C:\code\test_1_26\test_1_26\test.c(102,5):
+  参见“main”的前一个定义
+  

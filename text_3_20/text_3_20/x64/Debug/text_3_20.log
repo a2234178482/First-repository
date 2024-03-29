@@ -1,0 +1,4 @@
+﻿text.obj : error LNK2019: 无法解析的外部符号 scanf，函数 main 中引用了该符号
+text.obj : error LNK2019: 无法解析的外部符号 is_prime，函数 main 中引用了该符号
+text.obj : error LNK2019: 无法解析的外部符号 printf，函数 main 中引用了该符号
+C:\code\text_3_20\x64\Debug\text_3_20.exe : fatal error LNK1120: 3 个无法解析的外部命令
