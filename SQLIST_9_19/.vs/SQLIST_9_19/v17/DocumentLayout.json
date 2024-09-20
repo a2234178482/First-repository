@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\22341\\source\\repos\\SQLIST_9_19\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19B3A00B-F6EE-4A48-BDE9-5DD8E92735E4}|SQLIST_9_19.vcxproj|C:\\Users\\22341\\source\\repos\\SQLIST_9_19\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{19B3A00B-F6EE-4A48-BDE9-5DD8E92735E4}|SQLIST_9_19.vcxproj|solutionrelative:test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{19B3A00B-F6EE-4A48-BDE9-5DD8E92735E4}|SQLIST_9_19.vcxproj|C:\\Users\\22341\\source\\repos\\SQLIST_9_19\\Contact.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{19B3A00B-F6EE-4A48-BDE9-5DD8E92735E4}|SQLIST_9_19.vcxproj|solutionrelative:Contact.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19B3A00B-F6EE-4A48-BDE9-5DD8E92735E4}|SQLIST_9_19.vcxproj|C:\\Users\\22341\\source\\repos\\SQLIST_9_19\\sqlist.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{19B3A00B-F6EE-4A48-BDE9-5DD8E92735E4}|SQLIST_9_19.vcxproj|solutionrelative:sqlist.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B3A00B-F6EE-4A48-BDE9-5DD8E92735E4}|SQLIST_9_19.vcxproj|C:\\Users\\22341\\source\\repos\\SQLIST_9_19\\Contact.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{19B3A00B-F6EE-4A48-BDE9-5DD8E92735E4}|SQLIST_9_19.vcxproj|solutionrelative:Contact.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B3A00B-F6EE-4A48-BDE9-5DD8E92735E4}|SQLIST_9_19.vcxproj|C:\\Users\\22341\\source\\repos\\SQLIST_9_19\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{19B3A00B-F6EE-4A48-BDE9-5DD8E92735E4}|SQLIST_9_19.vcxproj|solutionrelative:test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19B3A00B-F6EE-4A48-BDE9-5DD8E92735E4}|SQLIST_9_19.vcxproj|C:\\Users\\22341\\source\\repos\\SQLIST_9_19\\sqlist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -27,14 +35,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "test.c",
-              "DocumentMoniker": "C:\\Users\\22341\\source\\repos\\SQLIST_9_19\\test.c",
-              "RelativeDocumentMoniker": "test.c",
-              "ToolTip": "C:\\Users\\22341\\source\\repos\\SQLIST_9_19\\test.c",
-              "RelativeToolTip": "test.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-09-19T03:13:33.044Z",
+              "Title": "Contact.h",
+              "DocumentMoniker": "C:\\Users\\22341\\source\\repos\\SQLIST_9_19\\Contact.h",
+              "RelativeDocumentMoniker": "Contact.h",
+              "ToolTip": "C:\\Users\\22341\\source\\repos\\SQLIST_9_19\\Contact.h",
+              "RelativeToolTip": "Contact.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-20T15:39:15.528Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -45,20 +54,47 @@
               "RelativeDocumentMoniker": "sqlist.c",
               "ToolTip": "C:\\Users\\22341\\source\\repos\\SQLIST_9_19\\sqlist.c",
               "RelativeToolTip": "sqlist.c",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-19T03:07:44.898Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Contact.c",
+              "DocumentMoniker": "C:\\Users\\22341\\source\\repos\\SQLIST_9_19\\Contact.c",
+              "RelativeDocumentMoniker": "Contact.c",
+              "ToolTip": "C:\\Users\\22341\\source\\repos\\SQLIST_9_19\\Contact.c",
+              "RelativeToolTip": "Contact.c",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAADAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-20T15:40:14.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "test.c",
+              "DocumentMoniker": "C:\\Users\\22341\\source\\repos\\SQLIST_9_19\\test.c",
+              "RelativeDocumentMoniker": "test.c",
+              "ToolTip": "C:\\Users\\22341\\source\\repos\\SQLIST_9_19\\test.c",
+              "RelativeToolTip": "test.c",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-19T03:13:33.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "sqlist.h",
               "DocumentMoniker": "C:\\Users\\22341\\source\\repos\\SQLIST_9_19\\sqlist.h",
               "RelativeDocumentMoniker": "sqlist.h",
               "ToolTip": "C:\\Users\\22341\\source\\repos\\SQLIST_9_19\\sqlist.h",
               "RelativeToolTip": "sqlist.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAzwC0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-19T03:07:30.271Z",
               "EditorCaption": ""

@@ -1,7 +1,9 @@
 #pragma once
+#define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 #include<stdlib.h>
 #include<assert.h>
+#include"Contact.h"
 //定义顺序表的结构
 
 //#define N 100
@@ -13,7 +15,8 @@
 //	int size;//有效数据个数
 //};
 
-typedef int SLDataType;
+//typedef int SLDataType;//方便后续类型的替换
+typedef peoInfo SLDataType;
 //动态顺序表
 typedef struct SeqList
 {
