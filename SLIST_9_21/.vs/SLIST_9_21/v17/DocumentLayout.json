@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\22341\\source\\repos\\SLIST_9_21\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{539331C9-1808-4F27-9419-43253CB2EF4A}|SLIST_9_21.vcxproj|C:\\Users\\22341\\source\\repos\\SLIST_9_21\\Slist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{539331C9-1808-4F27-9419-43253CB2EF4A}|SLIST_9_21.vcxproj|solutionrelative:Slist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{539331C9-1808-4F27-9419-43253CB2EF4A}|SLIST_9_21.vcxproj|C:\\Users\\22341\\source\\repos\\SLIST_9_21\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{539331C9-1808-4F27-9419-43253CB2EF4A}|SLIST_9_21.vcxproj|solutionrelative:test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{539331C9-1808-4F27-9419-43253CB2EF4A}|SLIST_9_21.vcxproj|C:\\Users\\22341\\source\\repos\\SLIST_9_21\\Slist.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{539331C9-1808-4F27-9419-43253CB2EF4A}|SLIST_9_21.vcxproj|solutionrelative:Slist.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539331C9-1808-4F27-9419-43253CB2EF4A}|SLIST_9_21.vcxproj|C:\\Users\\22341\\source\\repos\\SLIST_9_21\\Slist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{539331C9-1808-4F27-9419-43253CB2EF4A}|SLIST_9_21.vcxproj|solutionrelative:Slist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Slist.c",
+              "DocumentMoniker": "C:\\Users\\22341\\source\\repos\\SLIST_9_21\\Slist.c",
+              "RelativeDocumentMoniker": "Slist.c",
+              "ToolTip": "C:\\Users\\22341\\source\\repos\\SLIST_9_21\\Slist.c",
+              "RelativeToolTip": "Slist.c",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAywMEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-22T11:13:01.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "test.c",
               "DocumentMoniker": "C:\\Users\\22341\\source\\repos\\SLIST_9_21\\test.c",
               "RelativeDocumentMoniker": "test.c",
               "ToolTip": "C:\\Users\\22341\\source\\repos\\SLIST_9_21\\test.c",
               "RelativeToolTip": "test.c",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-21T13:04:36.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Slist.c",
-              "DocumentMoniker": "C:\\Users\\22341\\source\\repos\\SLIST_9_21\\Slist.c",
-              "RelativeDocumentMoniker": "Slist.c",
-              "ToolTip": "C:\\Users\\22341\\source\\repos\\SLIST_9_21\\Slist.c",
-              "RelativeToolTip": "Slist.c",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAqwFoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-09-21T12:34:51.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Slist.h",
               "DocumentMoniker": "C:\\Users\\22341\\source\\repos\\SLIST_9_21\\Slist.h",
               "RelativeDocumentMoniker": "Slist.h",
               "ToolTip": "C:\\Users\\22341\\source\\repos\\SLIST_9_21\\Slist.h",
               "RelativeToolTip": "Slist.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA0wCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-21T12:34:36.959Z",
               "EditorCaption": ""
