@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\22341\\source\\repos\\test_10_23\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ECC0BB-19F5-4BF0-A887-E55467F6A765}|test_10_23.vcxproj|C:\\Users\\22341\\source\\repos\\test_10_23\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5ECC0BB-19F5-4BF0-A887-E55467F6A765}|test_10_23.vcxproj|solutionrelative:test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ECC0BB-19F5-4BF0-A887-E55467F6A765}|test_10_23.vcxproj|C:\\Users\\22341\\source\\repos\\test_10_23\\heap.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5ECC0BB-19F5-4BF0-A887-E55467F6A765}|test_10_23.vcxproj|solutionrelative:heap.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ECC0BB-19F5-4BF0-A887-E55467F6A765}|test_10_23.vcxproj|C:\\Users\\22341\\source\\repos\\test_10_23\\heap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5ECC0BB-19F5-4BF0-A887-E55467F6A765}|test_10_23.vcxproj|solutionrelative:heap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "heap.h",
+              "DocumentMoniker": "C:\\Users\\22341\\source\\repos\\test_10_23\\heap.h",
+              "RelativeDocumentMoniker": "heap.h",
+              "ToolTip": "C:\\Users\\22341\\source\\repos\\test_10_23\\heap.h",
+              "RelativeToolTip": "heap.h",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA0wBsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-23T15:56:39.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "heap.c",
+              "DocumentMoniker": "C:\\Users\\22341\\source\\repos\\test_10_23\\heap.c",
+              "RelativeDocumentMoniker": "heap.c",
+              "ToolTip": "C:\\Users\\22341\\source\\repos\\test_10_23\\heap.c",
+              "RelativeToolTip": "heap.c",
+              "ViewState": "AgIAAC0AAAAAAAAAAAA0wHkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-23T15:56:25.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.c",
+              "DocumentMoniker": "C:\\Users\\22341\\source\\repos\\test_10_23\\test.c",
+              "RelativeDocumentMoniker": "test.c",
+              "ToolTip": "C:\\Users\\22341\\source\\repos\\test_10_23\\test.c",
+              "RelativeToolTip": "test.c",
+              "ViewState": "AgIAADYAAAAAAAAAAAA0wE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-23T15:11:54.938Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
