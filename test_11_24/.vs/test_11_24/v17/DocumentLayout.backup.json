@@ -27,7 +27,7 @@
               "RelativeDocumentMoniker": "..\\test_10_28\\stack.c",
               "ToolTip": "C:\\Users\\22341\\source\\repos\\test_10_28\\stack.c",
               "RelativeToolTip": "..\\test_10_28\\stack.c",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAxwH8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAxwH4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-11-24T15:43:05.216Z",
               "EditorCaption": ""
@@ -42,7 +42,8 @@
               "RelativeToolTip": "test.c",
               "ViewState": "AgIAAA0AAAAAAAAAAAAwwCgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-24T14:14:06.639Z"
+              "WhenOpened": "2024-11-24T14:14:06.639Z",
+              "EditorCaption": ""
             }
           ]
         }
