@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\22341\\source\\repos\\test_11_24\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CFF9583B-AFFE-4EDB-AA5C-9826DC1DBB4F}|test_11_24.vcxproj|C:\\Users\\22341\\source\\repos\\test_10_28\\stack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CFF9583B-AFFE-4EDB-AA5C-9826DC1DBB4F}|test_11_24.vcxproj|C:\\Users\\22341\\source\\repos\\test_11_24\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CFF9583B-AFFE-4EDB-AA5C-9826DC1DBB4F}|test_11_24.vcxproj|solutionrelative:test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF9583B-AFFE-4EDB-AA5C-9826DC1DBB4F}|test_11_24.vcxproj|C:\\Users\\22341\\source\\repos\\test_10_28\\stack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,24 +17,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "stack.c",
               "DocumentMoniker": "C:\\Users\\22341\\source\\repos\\test_10_28\\stack.c",
               "RelativeDocumentMoniker": "..\\test_10_28\\stack.c",
               "ToolTip": "C:\\Users\\22341\\source\\repos\\test_10_28\\stack.c",
               "RelativeToolTip": "..\\test_10_28\\stack.c",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAxwH4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-11-24T15:43:05.216Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "test.c",
               "DocumentMoniker": "C:\\Users\\22341\\source\\repos\\test_11_24\\test.c",
               "RelativeDocumentMoniker": "test.c",
