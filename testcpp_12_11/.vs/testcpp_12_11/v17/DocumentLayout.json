@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\22341\\source\\repos\\testcpp_12_11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D8D9BD-3D36-4155-BAB7-140224165D81}|testcpp_12_11.vcxproj|C:\\Users\\22341\\source\\repos\\testcpp_12_11\\Date.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E2D8D9BD-3D36-4155-BAB7-140224165D81}|testcpp_12_11.vcxproj|solutionrelative:Date.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D8D9BD-3D36-4155-BAB7-140224165D81}|testcpp_12_11.vcxproj|C:\\Users\\22341\\source\\repos\\testcpp_12_11\\Date.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E2D8D9BD-3D36-4155-BAB7-140224165D81}|testcpp_12_11.vcxproj|solutionrelative:Date.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D8D9BD-3D36-4155-BAB7-140224165D81}|testcpp_12_11.vcxproj|C:\\Users\\22341\\source\\repos\\testcpp_12_11\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E2D8D9BD-3D36-4155-BAB7-140224165D81}|testcpp_12_11.vcxproj|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Date.cpp",
+              "DocumentMoniker": "C:\\Users\\22341\\source\\repos\\testcpp_12_11\\Date.cpp",
+              "RelativeDocumentMoniker": "Date.cpp",
+              "ToolTip": "C:\\Users\\22341\\source\\repos\\testcpp_12_11\\Date.cpp",
+              "RelativeToolTip": "Date.cpp",
+              "ViewState": "AgIAANoAAAAAAAAAAAAkwPsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-11T14:47:02.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Date.h",
+              "DocumentMoniker": "C:\\Users\\22341\\source\\repos\\testcpp_12_11\\Date.h",
+              "RelativeDocumentMoniker": "Date.h",
+              "ToolTip": "C:\\Users\\22341\\source\\repos\\testcpp_12_11\\Date.h",
+              "RelativeToolTip": "Date.h",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwFUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-11T14:46:38.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "test.cpp",
+              "DocumentMoniker": "C:\\Users\\22341\\source\\repos\\testcpp_12_11\\test.cpp",
+              "RelativeDocumentMoniker": "test.cpp",
+              "ToolTip": "C:\\Users\\22341\\source\\repos\\testcpp_12_11\\test.cpp",
+              "RelativeToolTip": "test.cpp",
+              "ViewState": "AgIAADUBAAAAAAAAAAAiwOYBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-11T14:41:52.851Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
