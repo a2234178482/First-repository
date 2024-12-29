@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\22341\\source\\repos\\test_12_29\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D93BF075-E584-47C4-83AD-DF660EBB77DC}|test_12_29.vcxproj|C:\\Users\\22341\\source\\repos\\test_12_29\\strrindex.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D93BF075-E584-47C4-83AD-DF660EBB77DC}|test_12_29.vcxproj|solutionrelative:strrindex.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D93BF075-E584-47C4-83AD-DF660EBB77DC}|test_12_29.vcxproj|C:\\Users\\22341\\source\\repos\\test_12_29\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D93BF075-E584-47C4-83AD-DF660EBB77DC}|test_12_29.vcxproj|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "strrindex.c",
+              "DocumentMoniker": "C:\\Users\\22341\\source\\repos\\test_12_29\\strrindex.c",
+              "RelativeDocumentMoniker": "strrindex.c",
+              "ToolTip": "C:\\Users\\22341\\source\\repos\\test_12_29\\strrindex.c",
+              "RelativeToolTip": "strrindex.c",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-29T12:09:35.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test.cpp",
+              "DocumentMoniker": "C:\\Users\\22341\\source\\repos\\test_12_29\\test.cpp",
+              "RelativeDocumentMoniker": "test.cpp",
+              "ToolTip": "C:\\Users\\22341\\source\\repos\\test_12_29\\test.cpp",
+              "RelativeToolTip": "test.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-29T12:03:33.278Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
