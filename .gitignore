@@ -50,3 +50,5 @@
 *.user
 *.txt
 *.json
+*.testlog
+*.manifest
