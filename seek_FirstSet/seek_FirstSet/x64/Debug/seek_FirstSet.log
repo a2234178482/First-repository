@@ -1,0 +1,4 @@
+﻿  test.cpp
+D:\cpp_code\seek_FirstSet\test.cpp(34,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\cpp_code\seek_FirstSet\test.cpp(139,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  seek_FirstSet.vcxproj -> D:\cpp_code\seek_FirstSet\x64\Debug\seek_FirstSet.exe

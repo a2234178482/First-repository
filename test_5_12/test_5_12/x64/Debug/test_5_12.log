@@ -1,0 +1,4 @@
+﻿  test.cpp
+D:\cpp_code\test_5_12\test.cpp(46,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\cpp_code\test_5_12\test.cpp(67,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  test_5_12.vcxproj -> D:\cpp_code\test_5_12\x64\Debug\test_5_12.exe

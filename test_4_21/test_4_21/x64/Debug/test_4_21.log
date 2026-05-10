@@ -1,0 +1,5 @@
+﻿  test.cpp
+D:\cpp_code\test_4_21\test.cpp(11,8): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\cpp_code\test_4_21\test.cpp(12,16): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+D:\cpp_code\test_4_21\test.cpp(20,19): error C2065: “a”: 未声明的标识符
+D:\cpp_code\test_4_21\test.cpp(20,16): error C2530: “ra”: 必须初始化引用

@@ -1,0 +1,4 @@
+﻿  test.cpp
+D:\cpp_code\test_2025_5_13\test.cpp(122,6): warning C4101: “a3”: 未引用的局部变量
+D:\cpp_code\test_2025_5_13\test.cpp(120,17): warning C4101: “a1”: 未引用的局部变量
+  test_2025_5_13.vcxproj -> D:\cpp_code\test_2025_5_13\x64\Debug\test_2025_5_13.exe

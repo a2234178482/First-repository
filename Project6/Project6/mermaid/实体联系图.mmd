@@ -1,0 +1,27 @@
+erDiagram
+    USER ||--o{ GAME_LOG : "产生"
+    USER ||--o{ GAME_STATE : "拥有"
+
+    USER {
+        int id PK
+        string username
+        string password
+    }
+
+    GAME_LOG {
+        int log_id PK
+        int user_id FK
+        string username
+        string start_time
+        int duration
+        int score
+    }
+
+    GAME_STATE {
+        int state_id PK
+        int user_id FK
+        int score
+        int status
+        int sleeptime
+        int endgamestatus
+    }

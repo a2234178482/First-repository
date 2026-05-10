@@ -1,0 +1,11 @@
+统计结果（共 10 个不同单词）:
+i'm: 1 次
+world: 1 次
+hello: 1 次
+learning: 1 次
+state-of-the-art: 1 次
+technology: 1 次
+stop: 1 次
+don't: 1 次
+test: 1 次
+special: 1 次

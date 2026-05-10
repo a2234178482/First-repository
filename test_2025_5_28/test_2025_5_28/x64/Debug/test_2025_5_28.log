@@ -1,0 +1,9 @@
+﻿  test.cpp
+D:\cpp_code\test_2025_5_28\test.cpp(164,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\cpp_code\test_2025_5_28\test.cpp(164,36): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\cpp_code\test_2025_5_28\test.cpp(323,7): warning C4834: 放弃具有 [[nodiscard]] 属性的函数的返回值
+D:\cpp_code\test_2025_5_28\test.cpp(446,5): error C2084: 函数“int main(void)”已有主体
+      D:\cpp_code\test_2025_5_28\test.cpp(274,5):
+      参见“main”的前一个定义
+  
+D:\cpp_code\test_2025_5_28\test.cpp(499,1): error C2143: 语法错误: 缺少“;”(在“}”的前面)

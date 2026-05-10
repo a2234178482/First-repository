@@ -1,0 +1,7 @@
+﻿  test.cpp
+D:\cpp_code\test_2025_5_5\test.cpp(85,15): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+D:\cpp_code\test_2025_5_5\test.cpp(85,15): warning C4267:         with
+D:\cpp_code\test_2025_5_5\test.cpp(85,15): warning C4267:         [
+D:\cpp_code\test_2025_5_5\test.cpp(85,15): warning C4267:             _Ty=int
+D:\cpp_code\test_2025_5_5\test.cpp(85,15): warning C4267:         ]
+  test_2025_5_5.vcxproj -> D:\cpp_code\test_2025_5_5\x64\Debug\test_2025_5_5.exe

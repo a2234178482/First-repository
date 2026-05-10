@@ -1,0 +1,6 @@
+﻿  test.cpp
+D:\cpp_code\test_2025_5_16\test.cpp(314,9): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“int”
+D:\cpp_code\test_2025_5_16\test.cpp(314,9): warning C4313: "printf": 格式字符串中的 "%p" 与类型为 "int" 的参数 1 冲突
+D:\cpp_code\test_2025_5_16\test.cpp(316,9): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“int”
+D:\cpp_code\test_2025_5_16\test.cpp(316,9): warning C4313: "printf": 格式字符串中的 "%p" 与类型为 "int" 的参数 1 冲突
+  test_2025_5_16.vcxproj -> D:\cpp_code\test_2025_5_16\x64\Debug\test_2025_5_16.exe

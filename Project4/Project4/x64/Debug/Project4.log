@@ -1,0 +1,789 @@
+﻿  test.cpp
+D:\cpp_code\Project4\test.cpp(204,24): error C2665: “std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert”: 没有重载函数可以转换所有参数类型
+D:\cpp_code\Project4\test.cpp(204,24): error C2665:         with
+D:\cpp_code\Project4\test.cpp(204,24): error C2665:         [
+D:\cpp_code\Project4\test.cpp(204,24): error C2665:             _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+D:\cpp_code\Project4\test.cpp(204,24): error C2665:             _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+D:\cpp_code\Project4\test.cpp(204,24): error C2665:             _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+D:\cpp_code\Project4\test.cpp(204,24): error C2665:         ]
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1284,10):
+      可能是“void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>>)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(204,24):
+          “void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>>)”: 无法将参数 1 从“std::set<std::set<int,std::less<int>,std::allocator<int>>,std::less<std::set<int,std::less<int>,std::allocator<int>>>,std::allocator<std::set<int,std::less<int>,std::allocator<int>>>>”转换为“std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>>”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+              D:\cpp_code\Project4\test.cpp(204,31):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1272,10):
+      或    “void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(_Iter,_Iter)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(204,24):
+          “void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(_Iter,_Iter)”: 应输入 2 个参数，却提供了 1 个
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1241,14):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::set<int,std::less<int>,std::allocator<int>> &&)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(204,24):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::set<int,std::less<int>,std::allocator<int>> &&)”: 无法推导“__formal”的 模板 参数
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+              D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1229,38):
+              “std::enable_if_t<false,int>”: 未能使别名模板专用化
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1235,26):
+      或    “std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::set<int,std::less<int>,std::allocator<int>> &&)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(204,31):
+          “初始化”: 无法从“std::set<std::set<int,std::less<int>,std::allocator<int>>,std::less<std::set<int,std::less<int>,std::allocator<int>>>,std::allocator<std::set<int,std::less<int>,std::allocator<int>>>>”转换为“std::set<int,std::less<int>,std::allocator<int>> &&”
+              D:\cpp_code\Project4\test.cpp(204,31):
+              原因如下: 无法从“std::set<std::set<int,std::less<int>,std::allocator<int>>,std::less<std::set<int,std::less<int>,std::allocator<int>>>,std::allocator<std::set<int,std::less<int>,std::allocator<int>>>>”转换为“std::set<int,std::less<int>,std::allocator<int>>”
+              D:\cpp_code\Project4\test.cpp(204,31):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1230,14):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(const std::set<int,std::less<int>,std::allocator<int>> &)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(204,24):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(const std::set<int,std::less<int>,std::allocator<int>> &)”: 无法推导“__formal”的 模板 参数
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+              D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1229,38):
+              “std::enable_if_t<false,int>”: 未能使别名模板专用化
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1224,26):
+      或    “std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(const std::set<int,std::less<int>,std::allocator<int>> &)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(204,31):
+          “初始化”: 无法从“std::set<std::set<int,std::less<int>,std::allocator<int>>,std::less<std::set<int,std::less<int>,std::allocator<int>>>,std::allocator<std::set<int,std::less<int>,std::allocator<int>>>>”转换为“const std::set<int,std::less<int>,std::allocator<int>> &”
+              D:\cpp_code\Project4\test.cpp(204,31):
+              原因如下: 无法从“std::set<std::set<int,std::less<int>,std::allocator<int>>,std::less<std::set<int,std::less<int>,std::allocator<int>>>,std::allocator<std::set<int,std::less<int>,std::allocator<int>>>>”转换为“const std::set<int,std::less<int>,std::allocator<int>>”
+              D:\cpp_code\Project4\test.cpp(204,31):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\cpp_code\Project4\test.cpp(204,24):
+      尝试匹配参数列表“(std::set<std::set<int,std::less<int>,std::allocator<int>>,std::less<std::set<int,std::less<int>,std::allocator<int>>>,std::allocator<std::set<int,std::less<int>,std::allocator<int>>>>)”时
+  
+D:\cpp_code\Project4\test.cpp(248,52): error C2665: “std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::find”: 没有重载函数可以转换所有参数类型
+D:\cpp_code\Project4\test.cpp(248,52): error C2665:         with
+D:\cpp_code\Project4\test.cpp(248,52): error C2665:         [
+D:\cpp_code\Project4\test.cpp(248,52): error C2665:             _Kty=std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,
+D:\cpp_code\Project4\test.cpp(248,52): error C2665:             _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+D:\cpp_code\Project4\test.cpp(248,52): error C2665:             _Pr=std::less<std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>>,
+D:\cpp_code\Project4\test.cpp(248,52): error C2665:             _Alloc=std::allocator<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>
+D:\cpp_code\Project4\test.cpp(248,52): error C2665:         ]
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1387,31):
+      可能是“std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::find(const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char> &) const”
+          with
+          [
+              _Kty=std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>>,
+              _Alloc=std::allocator<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(248,52):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::find(const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char> &) const”: 无法将参数 1 从“initializer list”转换为“const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char> &”
+          with
+          [
+              _Kty=std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>>,
+              _Alloc=std::allocator<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+              D:\cpp_code\Project4\test.cpp(248,57):
+              原因如下: 无法从“initializer list”转换为“const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>”
+              D:\cpp_code\Project4\test.cpp(248,57):
+              “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair”: 函数不接受 2 个参数
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(477,5):
+                  可能是“std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(_Tuple1 &,_Tuple2 &,std::integer_sequence<size_t,_Indices1...>,std::integer_sequence<size_t,_Indices2...>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(330,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(std::piecewise_construct_t,std::tuple<_Types1...>,std::tuple<_Types2...>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(300,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(std::pair<_Other1,_Other2> &&) noexcept(<expr>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(292,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(const std::pair<_Other1,_Other2> &) noexcept(<expr>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(271,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(_Other1 &&,_Other2 &&) noexcept(<expr>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(260,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(const _Ty1 &,const _Ty2 &) noexcept(<expr>)”
+          with
+          [
+              _Ty1=std::set<int,std::less<int>,std::allocator<int>>,
+              _Ty2=char
+          ]
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(253,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(void) noexcept(<expr>)”
+                  D:\cpp_code\Project4\test.cpp(248,57):
+                  尝试匹配参数列表“(const int, char)”时
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1383,25):
+      或    “std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::find(const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char> &)”
+          with
+          [
+              _Kty=std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>>,
+              _Alloc=std::allocator<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(248,52):
+          “std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::find(const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char> &)”: 无法将参数 1 从“initializer list”转换为“const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char> &”
+          with
+          [
+              _Kty=std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>>,
+              _Alloc=std::allocator<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+              D:\cpp_code\Project4\test.cpp(248,57):
+              原因如下: 无法从“initializer list”转换为“const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>”
+              D:\cpp_code\Project4\test.cpp(248,57):
+              “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair”: 函数不接受 2 个参数
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(477,5):
+                  可能是“std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(_Tuple1 &,_Tuple2 &,std::integer_sequence<size_t,_Indices1...>,std::integer_sequence<size_t,_Indices2...>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(330,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(std::piecewise_construct_t,std::tuple<_Types1...>,std::tuple<_Types2...>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(300,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(std::pair<_Other1,_Other2> &&) noexcept(<expr>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(292,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(const std::pair<_Other1,_Other2> &) noexcept(<expr>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(271,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(_Other1 &&,_Other2 &&) noexcept(<expr>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(260,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(const _Ty1 &,const _Ty2 &) noexcept(<expr>)”
+          with
+          [
+              _Ty1=std::set<int,std::less<int>,std::allocator<int>>,
+              _Ty2=char
+          ]
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(253,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(void) noexcept(<expr>)”
+                  D:\cpp_code\Project4\test.cpp(248,57):
+                  尝试匹配参数列表“(const int, char)”时
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1397,31):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::find(const _Other &) const”
+          with
+          [
+              _Kty=std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>>,
+              _Alloc=std::allocator<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(248,52):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::find(const _Other &) const”: 无法推导“_Other”的 模板 参数
+          with
+          [
+              _Kty=std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>>,
+              _Alloc=std::allocator<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1392,25):
+      或    “std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::find(const _Other &)”
+          with
+          [
+              _Kty=std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>>,
+              _Alloc=std::allocator<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(248,52):
+          “std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::find(const _Other &)”: 无法推导“_Other”的 模板 参数
+          with
+          [
+              _Kty=std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>>,
+              _Alloc=std::allocator<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+      D:\cpp_code\Project4\test.cpp(248,52):
+      尝试匹配参数列表“(initializer list)”时
+  
+D:\cpp_code\Project4\test.cpp(256,62): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\cpp_code\Project4\test.cpp(265,48): error C2665: “std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert”: 没有重载函数可以转换所有参数类型
+D:\cpp_code\Project4\test.cpp(265,48): error C2665:         with
+D:\cpp_code\Project4\test.cpp(265,48): error C2665:         [
+D:\cpp_code\Project4\test.cpp(265,48): error C2665:             _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+D:\cpp_code\Project4\test.cpp(265,48): error C2665:             _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+D:\cpp_code\Project4\test.cpp(265,48): error C2665:             _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+D:\cpp_code\Project4\test.cpp(265,48): error C2665:         ]
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1284,10):
+      可能是“void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>>)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(265,48):
+          “void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>>)”: 无法将参数 1 从“const int”转换为“std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>>”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+              D:\cpp_code\Project4\test.cpp(265,55):
+              “std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>>::initializer_list”: 没有重载函数可以转换所有参数类型
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\initializer_list(51,1):
+                  可能是“std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>>::initializer_list(std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>> &&)”
+                      D:\cpp_code\Project4\test.cpp(265,55):
+                      “std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>>::initializer_list(std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>> &&)”: 无法将参数 1 从“const int”转换为“std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>> &&”
+                          D:\cpp_code\Project4\test.cpp(265,55):
+                          原因如下: 无法从“const int”转换为“std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>>”
+                          D:\cpp_code\Project4\test.cpp(265,55):
+                          转换要求第二个用户定义的转换运算符或构造函数
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\initializer_list(51,1):
+                  或    “std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>>::initializer_list(const std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>> &)”
+                      D:\cpp_code\Project4\test.cpp(265,55):
+                      “std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>>::initializer_list(const std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>> &)”: 无法将参数 1 从“const int”转换为“const std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>> &”
+                          D:\cpp_code\Project4\test.cpp(265,55):
+                          原因如下: 无法从“const int”转换为“const std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>>”
+                          D:\cpp_code\Project4\test.cpp(265,55):
+                          转换要求第二个用户定义的转换运算符或构造函数
+                  D:\cpp_code\Project4\test.cpp(265,55):
+                  尝试匹配参数列表“(const int)”时
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1272,10):
+      或    “void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(_Iter,_Iter)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(265,48):
+          “void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(_Iter,_Iter)”: 应输入 2 个参数，却提供了 1 个
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1241,14):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::set<int,std::less<int>,std::allocator<int>> &&)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(265,48):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::set<int,std::less<int>,std::allocator<int>> &&)”: 无法推导“__formal”的 模板 参数
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+              D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1229,38):
+              “std::enable_if_t<false,int>”: 未能使别名模板专用化
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1235,26):
+      或    “std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::set<int,std::less<int>,std::allocator<int>> &&)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(265,55):
+          “初始化”: 无法从“const int”转换为“std::set<int,std::less<int>,std::allocator<int>> &&”
+              D:\cpp_code\Project4\test.cpp(265,55):
+              原因如下: 无法从“const int”转换为“std::set<int,std::less<int>,std::allocator<int>>”
+              D:\cpp_code\Project4\test.cpp(265,55):
+              “std::set<int,std::less<int>,std::allocator<int>>::set”: 没有重载函数可以转换所有参数类型
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(155,5):
+                  可能是“std::set<int,std::less<int>,std::allocator<int>>::set(std::initializer_list<int>)”
+                      D:\cpp_code\Project4\test.cpp(265,55):
+                      “std::set<int,std::less<int>,std::allocator<int>>::set(std::initializer_list<int>)”: 无法将参数 1 从“const int”转换为“std::initializer_list<int>”
+                          D:\cpp_code\Project4\test.cpp(265,55):
+                          转换要求第二个用户定义的转换运算符或构造函数
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(111,5):
+                  或    “std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter,const std::less<int> &,const std::allocator<int> &)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(106,5):
+                  或    “std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter,const std::allocator<int> &)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(101,5):
+                  或    “std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter,const std::less<int> &)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(96,5):
+                  或    “std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter)”
+                  D:\cpp_code\Project4\test.cpp(265,55):
+                  尝试匹配参数列表“(const int)”时
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1230,14):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(const std::set<int,std::less<int>,std::allocator<int>> &)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(265,48):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(const std::set<int,std::less<int>,std::allocator<int>> &)”: 无法推导“__formal”的 模板 参数
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+              D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1229,38):
+              “std::enable_if_t<false,int>”: 未能使别名模板专用化
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1224,26):
+      或    “std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(const std::set<int,std::less<int>,std::allocator<int>> &)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(265,55):
+          “初始化”: 无法从“const int”转换为“const std::set<int,std::less<int>,std::allocator<int>> &”
+              D:\cpp_code\Project4\test.cpp(265,55):
+              原因如下: 无法从“const int”转换为“const std::set<int,std::less<int>,std::allocator<int>>”
+              D:\cpp_code\Project4\test.cpp(265,55):
+              “std::set<int,std::less<int>,std::allocator<int>>::set”: 没有重载函数可以转换所有参数类型
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(155,5):
+                  可能是“std::set<int,std::less<int>,std::allocator<int>>::set(std::initializer_list<int>)”
+                      D:\cpp_code\Project4\test.cpp(265,55):
+                      “std::set<int,std::less<int>,std::allocator<int>>::set(std::initializer_list<int>)”: 无法将参数 1 从“const int”转换为“std::initializer_list<int>”
+                          D:\cpp_code\Project4\test.cpp(265,55):
+                          转换要求第二个用户定义的转换运算符或构造函数
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(111,5):
+                  或    “std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter,const std::less<int> &,const std::allocator<int> &)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(106,5):
+                  或    “std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter,const std::allocator<int> &)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(101,5):
+                  或    “std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter,const std::less<int> &)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(96,5):
+                  或    “std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter)”
+                  D:\cpp_code\Project4\test.cpp(265,55):
+                  尝试匹配参数列表“(const int)”时
+      D:\cpp_code\Project4\test.cpp(265,48):
+      尝试匹配参数列表“(const int)”时
+  
+D:\cpp_code\Project4\test.cpp(269,35): error C2665: “std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert”: 没有重载函数可以转换所有参数类型
+D:\cpp_code\Project4\test.cpp(269,35): error C2665:         with
+D:\cpp_code\Project4\test.cpp(269,35): error C2665:         [
+D:\cpp_code\Project4\test.cpp(269,35): error C2665:             _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+D:\cpp_code\Project4\test.cpp(269,35): error C2665:             _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+D:\cpp_code\Project4\test.cpp(269,35): error C2665:             _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+D:\cpp_code\Project4\test.cpp(269,35): error C2665:         ]
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1284,10):
+      可能是“void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>>)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(269,35):
+          “void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>>)”: 无法将参数 1 从“const _Ty2”转换为“std::initializer_list<std::set<int,std::less<int>,std::allocator<int>>>”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          and
+          [
+              _Ty2=std::set<std::set<int,std::less<int>,std::allocator<int>>,std::less<std::set<int,std::less<int>,std::allocator<int>>>,std::allocator<std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+              D:\cpp_code\Project4\test.cpp(269,49):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1272,10):
+      或    “void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(_Iter,_Iter)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(269,35):
+          “void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(_Iter,_Iter)”: 应输入 2 个参数，却提供了 1 个
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1241,14):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::set<int,std::less<int>,std::allocator<int>> &&)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(269,35):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::set<int,std::less<int>,std::allocator<int>> &&)”: 无法推导“__formal”的 模板 参数
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+              D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1229,38):
+              “std::enable_if_t<false,int>”: 未能使别名模板专用化
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1235,26):
+      或    “std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::set<int,std::less<int>,std::allocator<int>> &&)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(269,49):
+          “初始化”: 无法从“const _Ty2”转换为“std::set<int,std::less<int>,std::allocator<int>> &&”
+          with
+          [
+              _Ty2=std::set<std::set<int,std::less<int>,std::allocator<int>>,std::less<std::set<int,std::less<int>,std::allocator<int>>>,std::allocator<std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+              D:\cpp_code\Project4\test.cpp(269,49):
+              原因如下: 无法从“const _Ty2”转换为“std::set<int,std::less<int>,std::allocator<int>>”
+          with
+          [
+              _Ty2=std::set<std::set<int,std::less<int>,std::allocator<int>>,std::less<std::set<int,std::less<int>,std::allocator<int>>>,std::allocator<std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+              D:\cpp_code\Project4\test.cpp(269,49):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1230,14):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(const std::set<int,std::less<int>,std::allocator<int>> &)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(269,35):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(const std::set<int,std::less<int>,std::allocator<int>> &)”: 无法推导“__formal”的 模板 参数
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+              D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1229,38):
+              “std::enable_if_t<false,int>”: 未能使别名模板专用化
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1224,26):
+      或    “std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(const std::set<int,std::less<int>,std::allocator<int>> &)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(269,49):
+          “初始化”: 无法从“const _Ty2”转换为“const std::set<int,std::less<int>,std::allocator<int>> &”
+          with
+          [
+              _Ty2=std::set<std::set<int,std::less<int>,std::allocator<int>>,std::less<std::set<int,std::less<int>,std::allocator<int>>>,std::allocator<std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+              D:\cpp_code\Project4\test.cpp(269,49):
+              原因如下: 无法从“const _Ty2”转换为“const std::set<int,std::less<int>,std::allocator<int>>”
+          with
+          [
+              _Ty2=std::set<std::set<int,std::less<int>,std::allocator<int>>,std::less<std::set<int,std::less<int>,std::allocator<int>>>,std::allocator<std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+              D:\cpp_code\Project4\test.cpp(269,49):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\cpp_code\Project4\test.cpp(269,35):
+      尝试匹配参数列表“(const _Ty2)”时
+          with
+          [
+              _Ty2=std::set<std::set<int,std::less<int>,std::allocator<int>>,std::less<std::set<int,std::less<int>,std::allocator<int>>>,std::allocator<std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+  
+D:\cpp_code\Project4\test.cpp(314,29): error C2665: “std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find”: 没有重载函数可以转换所有参数类型
+D:\cpp_code\Project4\test.cpp(314,29): error C2665:         with
+D:\cpp_code\Project4\test.cpp(314,29): error C2665:         [
+D:\cpp_code\Project4\test.cpp(314,29): error C2665:             _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+D:\cpp_code\Project4\test.cpp(314,29): error C2665:             _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+D:\cpp_code\Project4\test.cpp(314,29): error C2665:             _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+D:\cpp_code\Project4\test.cpp(314,29): error C2665:         ]
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1387,31):
+      可能是“std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const std::set<int,std::less<int>,std::allocator<int>> &) const”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(314,29):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const std::set<int,std::less<int>,std::allocator<int>> &) const”: 无法将参数 1 从“const int”转换为“const std::set<int,std::less<int>,std::allocator<int>> &”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+              D:\cpp_code\Project4\test.cpp(314,34):
+              原因如下: 无法从“const int”转换为“const std::set<int,std::less<int>,std::allocator<int>>”
+              D:\cpp_code\Project4\test.cpp(314,34):
+              “std::set<int,std::less<int>,std::allocator<int>>::set”: 没有重载函数可以转换所有参数类型
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(155,5):
+                  可能是“std::set<int,std::less<int>,std::allocator<int>>::set(std::initializer_list<int>)”
+                      D:\cpp_code\Project4\test.cpp(314,34):
+                      “std::set<int,std::less<int>,std::allocator<int>>::set(std::initializer_list<int>)”: 无法将参数 1 从“const int”转换为“std::initializer_list<int>”
+                          D:\cpp_code\Project4\test.cpp(314,34):
+                          转换要求第二个用户定义的转换运算符或构造函数
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(111,5):
+                  或    “std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter,const std::less<int> &,const std::allocator<int> &)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(106,5):
+                  或    “std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter,const std::allocator<int> &)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(101,5):
+                  或    “std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter,const std::less<int> &)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(96,5):
+                  或    “std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter)”
+                  D:\cpp_code\Project4\test.cpp(314,34):
+                  尝试匹配参数列表“(const int)”时
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1383,25):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const std::set<int,std::less<int>,std::allocator<int>> &)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(314,29):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const std::set<int,std::less<int>,std::allocator<int>> &)”: 无法将参数 1 从“const int”转换为“const std::set<int,std::less<int>,std::allocator<int>> &”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+              D:\cpp_code\Project4\test.cpp(314,34):
+              原因如下: 无法从“const int”转换为“const std::set<int,std::less<int>,std::allocator<int>>”
+              D:\cpp_code\Project4\test.cpp(314,34):
+              “std::set<int,std::less<int>,std::allocator<int>>::set”: 没有重载函数可以转换所有参数类型
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(155,5):
+                  可能是“std::set<int,std::less<int>,std::allocator<int>>::set(std::initializer_list<int>)”
+                      D:\cpp_code\Project4\test.cpp(314,34):
+                      “std::set<int,std::less<int>,std::allocator<int>>::set(std::initializer_list<int>)”: 无法将参数 1 从“const int”转换为“std::initializer_list<int>”
+                          D:\cpp_code\Project4\test.cpp(314,34):
+                          转换要求第二个用户定义的转换运算符或构造函数
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(111,5):
+                  或    “std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter,const std::less<int> &,const std::allocator<int> &)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(106,5):
+                  或    “std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter,const std::allocator<int> &)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(101,5):
+                  或    “std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter,const std::less<int> &)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(96,5):
+                  或    “std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter)”
+                  D:\cpp_code\Project4\test.cpp(314,34):
+                  尝试匹配参数列表“(const int)”时
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1397,31):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const _Other &) const”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(314,29):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const _Other &) const”: 无法推导“__formal”的 模板 参数
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+              D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1391,58):
+              “std::enable_if_t<false,int>”: 未能使别名模板专用化
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1392,25):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const _Other &)”
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(314,29):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const _Other &)”: 无法推导“__formal”的 模板 参数
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+              D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1391,58):
+              “std::enable_if_t<false,int>”: 未能使别名模板专用化
+      D:\cpp_code\Project4\test.cpp(314,29):
+      尝试匹配参数列表“(const int)”时
+  
+D:\cpp_code\Project4\test.cpp(314,54): error C2088: 内置运算符“!=”无法应用于类型为“_T”的操作数
+D:\cpp_code\Project4\test.cpp(314,54): error C2088:         with
+D:\cpp_code\Project4\test.cpp(314,54): error C2088:         [
+D:\cpp_code\Project4\test.cpp(314,54): error C2088:             _T=std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::set<int,std::less<int>,std::allocator<int>>>>>
+D:\cpp_code\Project4\test.cpp(314,54): error C2088:         ]
+D:\cpp_code\Project4\test.cpp(327,44): error C2665: “std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::find”: 没有重载函数可以转换所有参数类型
+D:\cpp_code\Project4\test.cpp(327,44): error C2665:         with
+D:\cpp_code\Project4\test.cpp(327,44): error C2665:         [
+D:\cpp_code\Project4\test.cpp(327,44): error C2665:             _Kty=std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,
+D:\cpp_code\Project4\test.cpp(327,44): error C2665:             _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+D:\cpp_code\Project4\test.cpp(327,44): error C2665:             _Pr=std::less<std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>>,
+D:\cpp_code\Project4\test.cpp(327,44): error C2665:             _Alloc=std::allocator<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>
+D:\cpp_code\Project4\test.cpp(327,44): error C2665:         ]
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1387,31):
+      可能是“std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::find(const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char> &) const”
+          with
+          [
+              _Kty=std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>>,
+              _Alloc=std::allocator<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(327,44):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::find(const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char> &) const”: 无法将参数 1 从“initializer list”转换为“const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char> &”
+          with
+          [
+              _Kty=std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>>,
+              _Alloc=std::allocator<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+              D:\cpp_code\Project4\test.cpp(327,49):
+              原因如下: 无法从“initializer list”转换为“const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>”
+              D:\cpp_code\Project4\test.cpp(327,49):
+              “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair”: 函数不接受 2 个参数
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(477,5):
+                  可能是“std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(_Tuple1 &,_Tuple2 &,std::integer_sequence<size_t,_Indices1...>,std::integer_sequence<size_t,_Indices2...>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(330,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(std::piecewise_construct_t,std::tuple<_Types1...>,std::tuple<_Types2...>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(300,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(std::pair<_Other1,_Other2> &&) noexcept(<expr>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(292,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(const std::pair<_Other1,_Other2> &) noexcept(<expr>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(271,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(_Other1 &&,_Other2 &&) noexcept(<expr>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(260,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(const _Ty1 &,const _Ty2 &) noexcept(<expr>)”
+          with
+          [
+              _Ty1=std::set<int,std::less<int>,std::allocator<int>>,
+              _Ty2=char
+          ]
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(253,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(void) noexcept(<expr>)”
+                  D:\cpp_code\Project4\test.cpp(327,49):
+                  尝试匹配参数列表“(const int, char)”时
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1383,25):
+      或    “std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::find(const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char> &)”
+          with
+          [
+              _Kty=std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>>,
+              _Alloc=std::allocator<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(327,44):
+          “std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::find(const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char> &)”: 无法将参数 1 从“initializer list”转换为“const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char> &”
+          with
+          [
+              _Kty=std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>>,
+              _Alloc=std::allocator<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+              D:\cpp_code\Project4\test.cpp(327,49):
+              原因如下: 无法从“initializer list”转换为“const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>”
+              D:\cpp_code\Project4\test.cpp(327,49):
+              “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair”: 函数不接受 2 个参数
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(477,5):
+                  可能是“std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(_Tuple1 &,_Tuple2 &,std::integer_sequence<size_t,_Indices1...>,std::integer_sequence<size_t,_Indices2...>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(330,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(std::piecewise_construct_t,std::tuple<_Types1...>,std::tuple<_Types2...>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(300,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(std::pair<_Other1,_Other2> &&) noexcept(<expr>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(292,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(const std::pair<_Other1,_Other2> &) noexcept(<expr>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(271,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(_Other1 &&,_Other2 &&) noexcept(<expr>)”
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(260,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(const _Ty1 &,const _Ty2 &) noexcept(<expr>)”
+          with
+          [
+              _Ty1=std::set<int,std::less<int>,std::allocator<int>>,
+              _Ty2=char
+          ]
+                  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(253,5):
+                  或    “std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>::pair(void) noexcept(<expr>)”
+                  D:\cpp_code\Project4\test.cpp(327,49):
+                  尝试匹配参数列表“(const int, char)”时
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1397,31):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::find(const _Other &) const”
+          with
+          [
+              _Kty=std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>>,
+              _Alloc=std::allocator<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(327,44):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::find(const _Other &) const”: 无法推导“_Other”的 模板 参数
+          with
+          [
+              _Kty=std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>>,
+              _Alloc=std::allocator<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xtree(1392,25):
+      或    “std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::find(const _Other &)”
+          with
+          [
+              _Kty=std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>>,
+              _Alloc=std::allocator<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+          D:\cpp_code\Project4\test.cpp(327,44):
+          “std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::find(const _Other &)”: 无法推导“_Other”的 模板 参数
+          with
+          [
+              _Kty=std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>>,
+              _Alloc=std::allocator<std::pair<const std::pair<std::set<int,std::less<int>,std::allocator<int>>,char>,std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+      D:\cpp_code\Project4\test.cpp(327,44):
+      尝试匹配参数列表“(initializer list)”时
+  

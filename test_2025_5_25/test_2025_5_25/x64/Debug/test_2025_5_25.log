@@ -1,0 +1,47 @@
+﻿  test.cpp
+D:\cpp_code\test_2025_5_25\test.cpp(26,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\cpp_code\test_2025_5_25\test.cpp(30,22): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+D:\cpp_code\test_2025_5_25\test.cpp(30,22): warning C4267:         with
+D:\cpp_code\test_2025_5_25\test.cpp(30,22): warning C4267:         [
+D:\cpp_code\test_2025_5_25\test.cpp(30,22): warning C4267:             _Ty=int
+D:\cpp_code\test_2025_5_25\test.cpp(30,22): warning C4267:         ]
+D:\cpp_code\test_2025_5_25\HashTable.h(272,59): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+  (编译源文件“test.cpp”)
+      D:\cpp_code\test_2025_5_25\HashTable.h(272,59):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\cpp_code\test_2025_5_25\UnorderedSet.h(51,23):
+          查看对正在编译的 类 模板 实例化“niuma::unordered_set<int,HashFunc<K>>”的引用
+          with
+          [
+              K=int
+          ]
+          D:\cpp_code\test_2025_5_25\UnorderedSet.h(16,70):
+          查看对正在编译的 类 模板 实例化“hash_bucket::HashTable<K,const K,niuma::unordered_set<K,HashFunc<K>>::SetKeyOfT,Hash>”的引用
+          with
+          [
+              K=int,
+              Hash=HashFunc<int>
+          ]
+          D:\cpp_code\test_2025_5_25\HashTable.h(261,24):
+          在编译 类 模板 成员函数“std::pair<hash_bucket::HTIterator<K,T,T &,T *,KeyOfT,Hash>,bool> hash_bucket::HashTable<K,const K,KeyOfT,Hash>::Insert(T &)”时
+          with
+          [
+              K=int,
+              T=int,
+              KeyOfT=niuma::unordered_set<int,HashFunc<int>>::SetKeyOfT,
+              Hash=HashFunc<int>
+          ]
+              D:\cpp_code\test_2025_5_25\UnorderedSet.h(36,3):
+              请参阅 "niuma::unordered_set<int,HashFunc<K>>::insert" 中对 "hash_bucket::HashTable<K,const K,niuma::unordered_set<K,HashFunc<K>>::SetKeyOfT,Hash>::Insert" 的第一个引用
+          with
+          [
+              K=int
+          ]
+              D:\cpp_code\test_2025_5_25\UnorderedSet.h(73,12):
+              请参阅 "niuma::test_set1" 中对 "niuma::unordered_set<int,HashFunc<K>>::insert" 的第一个引用
+          with
+          [
+              K=int
+          ]
+  
+  test_2025_5_25.vcxproj -> D:\cpp_code\test_2025_5_25\x64\Debug\test_2025_5_25.exe

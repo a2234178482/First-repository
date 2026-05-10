@@ -1,0 +1,16 @@
+﻿  test.cpp
+D:\cpp_code\Project5\Project5\test.cpp(80,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\cpp_code\Project5\Project5\test.cpp(233,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\cpp_code\Project5\Project5\test.cpp(249,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\cpp_code\Project5\Project5\test.cpp(256,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\cpp_code\Project5\Project5\test.cpp(298,21): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\cpp_code\Project5\Project5\test.cpp(298,21):
+      占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+      D:\cpp_code\Project5\Project5\test.cpp(298,21):
+      缺失的可变参数 2 为格式字符串“%s”所需
+      D:\cpp_code\Project5\Project5\test.cpp(298,21):
+      此参数用作缓冲区大小
+  
+D:\cpp_code\Project5\Project5\test.cpp(299,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\cpp_code\Project5\Project5\test.cpp(308,40): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  Project5.vcxproj -> D:\cpp_code\Project5\x64\Debug\Project5.exe

@@ -1,0 +1,8 @@
+﻿  test.cpp
+D:\cpp_code\test_2025_4_28\test.cpp(14,7): warning C4305: “参数”: 从“int”到“_Elem”截断
+D:\cpp_code\test_2025_4_28\test.cpp(14,7): warning C4305:         with
+D:\cpp_code\test_2025_4_28\test.cpp(14,7): warning C4305:         [
+D:\cpp_code\test_2025_4_28\test.cpp(14,7): warning C4305:             _Elem=char
+D:\cpp_code\test_2025_4_28\test.cpp(14,7): warning C4305:         ]
+D:\cpp_code\test_2025_4_28\test.cpp(14,7): warning C4309: “参数”: 截断常量值
+  test_2025_4_28.vcxproj -> D:\cpp_code\test_2025_4_28\x64\Debug\test_2025_4_28.exe

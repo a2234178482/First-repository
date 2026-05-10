@@ -1,0 +1,53 @@
+flowchart TD
+    subgraph GameSystem["贪吃蛇游戏系统"]
+        subgraph UserModule["用户管理模块"]
+            Register["注册功能"]
+            Login["登录功能"]
+            UserStorage["用户数据存储"]
+        end
+
+        subgraph GameModule["游戏核心模块"]
+            Init["游戏初始化"]
+            Move["蛇移动控制"]
+            Collision["碰撞检测"]
+            Food["食物生成"]
+            State["游戏状态管理"]
+        end
+
+        subgraph LogModule["日志管理模块"]
+            LogRecord["日志记录"]
+            LogQuery["日志查询"]
+            LogStorage["日志存储"]
+        end
+    end
+
+    User(["用户"])
+
+    User -->|1. 输入注册信息| Register
+    Register -->|2. 检查用户名是否存在| UserStorage
+    UserStorage -->|3. 返回检查结果| Register
+    Register -->|4. 保存新用户数据| UserStorage
+    Register -->|5. 返回注册结果| User
+
+    User -->|6. 输入登录信息| Login
+    Login -->|7. 验证用户信息| UserStorage
+    UserStorage -->|8. 返回验证结果| Login
+    Login -->|9. 返回登录结果| User
+
+    User -->|10. 开始游戏| Init
+    Init -->|11. 初始化蛇数据| Move
+    Init -->|12. 生成初始食物| Food
+
+    User -->|13. 方向控制输入| Move
+    Move -->|14. 检查碰撞情况| Collision
+    Collision -->|15. 返回碰撞结果| State
+    Food -->|16. 提供食物位置| Move
+    Move -->|17. 吃到食物通知| Food
+    Move -->|18. 更新游戏状态| User
+    State -->|19. 通知游戏结束| User
+
+    User -->|20. 请求查看日志| LogQuery
+    LogQuery -->|21. 查询日志数据| LogStorage
+    LogStorage -->|22. 返回日志数据| User
+    GameModule -->|23. 提供游戏结束数据| LogRecord
+    LogRecord -->|24. 保存日志到存储| LogStorage

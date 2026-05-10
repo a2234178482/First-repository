@@ -1,0 +1,4 @@
+﻿  test.cpp
+D:\cpp_code\LCOT\LCOT\test.cpp(9,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\cpp_code\LCOT\LCOT\test.cpp(54,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  LCOT.vcxproj -> D:\cpp_code\LCOT\x64\Debug\LCOT.exe

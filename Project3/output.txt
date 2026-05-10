@@ -1,0 +1,16 @@
+NFA to DFA Conversion Steps:
+Step 0: Start state: {} -> S0
+
+Final DFA (before minimization):
+States: S0
+Alphabet:
+Start State: S0
+Accept States:
+Transitions:
+
+Minimized DFA:
+States: M0
+Alphabet:
+Start State: M0
+Accept States:
+Transitions:

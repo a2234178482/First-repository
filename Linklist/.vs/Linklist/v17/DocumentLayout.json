@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\cpp_code\\Linklist\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D5246F-A0F1-49E7-AA81-19F22C89D730}|Linklist\\Linklist.vcxproj|D:\\cpp_code\\Linklist\\Linklist\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E1D5246F-A0F1-49E7-AA81-19F22C89D730}|Linklist\\Linklist.vcxproj|solutionrelative:Linklist\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.cpp",
+              "DocumentMoniker": "D:\\cpp_code\\Linklist\\Linklist\\test.cpp",
+              "RelativeDocumentMoniker": "Linklist\\test.cpp",
+              "ToolTip": "D:\\cpp_code\\Linklist\\Linklist\\test.cpp",
+              "RelativeToolTip": "Linklist\\test.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-10T14:27:30.433Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+﻿  test.cpp
+D:\cpp_code\Driver\test.cpp(54,42): error C2665: “Symbol::Symbol”: 没有重载函数可以转换所有参数类型
+      D:\cpp_code\Driver\test.cpp(22,5):
+      可能是“Symbol::Symbol(std::string,SymbolType)”
+          D:\cpp_code\Driver\test.cpp(54,42):
+          “Symbol::Symbol(std::string,SymbolType)”: 无法将参数 1 从“Symbol”转换为“std::string”
+              D:\cpp_code\Driver\test.cpp(54,43):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\cpp_code\Driver\test.cpp(54,42):
+      尝试匹配参数列表“(Symbol, SymbolType)”时
+  
+D:\cpp_code\Driver\test.cpp(226,49): error C2676: 二进制“!=”:“const Symbol”不定义该运算符或到预定义运算符可接收的类型的转换
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\stack(174,17):
+      可能是“bool std::operator !=(const std::stack<_Ty,_Container> &,const std::stack<_Ty,_Container> &)”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::stack<_Ty,_Container> &,const std::stack<_Ty,_Container> &)”: 无法从“const Symbol”推导出“const std::stack<_Ty,_Container> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\deque(1807,17):
+      或    “bool std::operator !=(const std::deque<_Ty,_Alloc> &,const std::deque<_Ty,_Alloc> &)”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::deque<_Ty,_Alloc> &,const std::deque<_Ty,_Alloc> &)”: 无法从“const Symbol”推导出“const std::deque<_Ty,_Alloc> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(438,17):
+      或    “bool std::operator !=(const std::multiset<_Kty,_Pr,_Alloc> &,const std::multiset<_Kty,_Pr,_Alloc> &)”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::multiset<_Kty,_Pr,_Alloc> &,const std::multiset<_Kty,_Pr,_Alloc> &)”: 无法从“const Symbol”推导出“const std::multiset<_Kty,_Pr,_Alloc> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\set(223,17):
+      或    “bool std::operator !=(const std::set<_Kty,_Pr,_Alloc> &,const std::set<_Kty,_Pr,_Alloc> &)”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::set<_Kty,_Pr,_Alloc> &,const std::set<_Kty,_Pr,_Alloc> &)”: 无法从“const Symbol”推导出“const std::set<_Kty,_Pr,_Alloc> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\map(646,17):
+      或    “bool std::operator !=(const std::multimap<_Kty,_Ty,_Pr,_Alloc> &,const std::multimap<_Kty,_Ty,_Pr,_Alloc> &)”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::multimap<_Kty,_Ty,_Pr,_Alloc> &,const std::multimap<_Kty,_Ty,_Pr,_Alloc> &)”: 无法从“const Symbol”推导出“const std::multimap<_Kty,_Ty,_Pr,_Alloc> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\map(414,17):
+      或    “bool std::operator !=(const std::map<_Kty,_Ty,_Pr,_Alloc> &,const std::map<_Kty,_Ty,_Pr,_Alloc> &)”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::map<_Kty,_Ty,_Pr,_Alloc> &,const std::map<_Kty,_Ty,_Pr,_Alloc> &)”: 无法从“const Symbol”推导出“const std::map<_Kty,_Ty,_Pr,_Alloc> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\tuple(858,27):
+      或    “bool std::operator !=(const std::tuple<_Types...> &,const std::tuple<_Types...> &)”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::tuple<_Types...> &,const std::tuple<_Types...> &)”: 无法从“const Symbol”推导出“const std::tuple<_Types...> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(2266,17):
+      或    “bool std::operator !=(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)”: 无法从“const Symbol”推导出“const std::vector<_Ty,_Alloc> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3692,17):
+      或    “bool std::operator !=(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &) noexcept”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &) noexcept”: 无法从“Symbol”推导出“const std::unique_ptr<_Ty,_Dx> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3687,17):
+      或    “bool std::operator !=(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t) noexcept”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t) noexcept”: 无法从“const Symbol”推导出“const std::unique_ptr<_Ty,_Dx> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3636,17):
+      或    “bool std::operator !=(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)”: 无法从“const Symbol”推导出“const std::unique_ptr<_Ty,_Dx> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(1930,17):
+      或    “bool std::operator !=(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept”: 无法从“Symbol”推导出“const std::shared_ptr<_Ty> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(1925,17):
+      或    “bool std::operator !=(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept”: 无法从“const Symbol”推导出“const std::shared_ptr<_Ty> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(1883,17):
+      或    “bool std::operator !=(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept”: 无法从“const Symbol”推导出“const std::shared_ptr<_Ty> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(3264,17):
+      或    “bool std::operator !=(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const ) noexcept”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const ) noexcept”: 无法从“const Symbol”推导出“const std::basic_string<_Elem,_Traits,_Alloc> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(3258,17):
+      或    “bool std::operator !=(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept”: 无法从“const Symbol”推导出“const _Elem *const ”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(3252,17):
+      或    “bool std::operator !=(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept”: 无法从“const Symbol”推导出“const std::basic_string<_Elem,_Traits,_Alloc> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xmemory(1052,17):
+      或    “bool std::operator !=(const std::allocator<_Ty> &,const std::allocator<_Other> &) noexcept”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::allocator<_Ty> &,const std::allocator<_Other> &) noexcept”: 无法从“const Symbol”推导出“const std::allocator<_Ty> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\iterator(493,17):
+      或    “bool std::operator !=(const std::istreambuf_iterator<_Elem,_Traits> &,const std::istreambuf_iterator<_Elem,_Traits> &)”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::istreambuf_iterator<_Elem,_Traits> &,const std::istreambuf_iterator<_Elem,_Traits> &)”: 无法从“const Symbol”推导出“const std::istreambuf_iterator<_Elem,_Traits> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\iterator(311,17):
+      或    “bool std::operator !=(const std::istream_iterator<_Ty,_Elem,_Traits,_Diff> &,const std::istream_iterator<_Ty,_Elem,_Traits,_Diff> &) noexcept”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::istream_iterator<_Ty,_Elem,_Traits,_Diff> &,const std::istream_iterator<_Ty,_Elem,_Traits,_Diff> &) noexcept”: 无法从“const Symbol”推导出“const std::istream_iterator<_Ty,_Elem,_Traits,_Diff> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(4487,30):
+      或    “bool std::operator !=(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)”: 无法从“const Symbol”推导出“const std::move_iterator<_Iter> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(1938,30):
+      或    “bool std::operator !=(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)”: 无法从“const Symbol”推导出“const std::reverse_iterator<_BidIt> &”的 模板 参数
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\utility(519,27):
+      或    “bool std::operator !=(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)”
+          D:\cpp_code\Driver\test.cpp(226,47):
+          “bool std::operator !=(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)”: 无法从“const Symbol”推导出“const std::pair<_Ty1,_Ty2> &”的 模板 参数
+  
